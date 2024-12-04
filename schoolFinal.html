@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Matthew Hagg</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background-color: #f8f9fa;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .section-title {
+            margin: 40px 0;
+        }
+        .card:hover {
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1 class="display-4">Matthew Hagg</h1>
+        <p class="lead">Developer | IT Specialist | Full Stack Enthusiast</p>
+        <a href="#contact" class="btn btn-primary">Contact Me</a>
+    </header>
+
+    <div class="container">
+        <!-- About Section -->
+        <section id="about" class="my-5">
+            <h2 class="text-center section-title">About Me</h2>
+            <p class="text-center">Hi, I'm Matthew Hagg. I specialize in full-stack development and have experience in PostgreSQL, IT, and cybersecurity. Passionate about building robust web applications and delivering impactful digital solutions.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="my-5">
+            <h2 class="text-center section-title">Skills</h2>
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <p><strong>Languages:</strong></p>
+                    <p>Python, JavaScript, SQL</p>
+                </div>
+                <div class="col-md-3">
+                    <p><strong>Frameworks:</strong></p>
+                    <p>Flask, React, Bootstrap</p>
+                </div>
+                <div class="col-md-3">
+                    <p><strong>Tools:</strong></p>
+                    <p>PostgreSQL, Git, SSH</p>
+                </div>
+                <div class="col-md-3">
+                    <p><strong>Specialties:</strong></p>
+                    <p>Cybersecurity, Full-Stack Development</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="my-5">
+            <h2 class="text-center section-title">Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">DojoDesk</h5>
+                            <p class="card-text">A SaaS platform for MMA studio management, integrating Stripe for billing and insights.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Database Optimization</h5>
+                            <p class="card-text">Redesigned backend queries to improve performance from 15 seconds to 3 seconds.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Chatbot Interface</h5>
+                            <p class="card-text">Developed a React-based chatbot component with styled and interactive features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="my-5">
+            <h2 class="text-center section-title">Experience</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <strong>Assistant Instructor</strong> - Teaching MMA to students of all ages, including special needs populations.
+                </li>
+                <li class="list-group-item">
+                    <strong>IT and Cybersecurity Specialist</strong> - Junior at Kean University, honing skills in full-stack development.
+                </li>
+                <li class="list-group-item">
+                    <strong>Music Producer</strong> - Produces music as a creative outlet and hobby.</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="my-5">
+            <h2 class="text-center section-title">Contact</h2>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="col-12">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <footer class="text-center py-3">
+        <p>&copy; 2024 Matthew Hagg. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
